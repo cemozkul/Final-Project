@@ -1,0 +1,1 @@
+An appropriate solution for the International Truck Routing Problem is developed with several constraints and a mathematical model for the optimal route is proposed. The solution to be created is optimized not only for the routes given but also for every route in the world that can be reached by road.

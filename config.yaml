@@ -1,0 +1,45 @@
+# Number of cities that will be used to solve problem. By changing number of cities you can change problem complexity.
+cities:
+  - numberOfCities: 30
+
+# Coordinate boundaries to be used to generate the coordinates of the cities.
+coordinates:
+  - latitude_lower: 35
+    latitude_upper: 60
+    longitude_lower: 10
+    longitude_upper: 40
+    
+# Fuel prices (€) are triangularly distributed. To generate different random variates; lower, upper and mode can be modified.
+fuelPricesDistributions:
+  - lower: 1
+    upper: 2
+    mode: 1.4
+
+# Toll prices(€) are uniformly distributed. To generate different random variates; lower and upper bound can be modified.
+tollPricesDistribution:
+  - lower: 200
+    upper: 400
+
+# Fuel consumed (liters) by truck are triangularly distributed. To generate different random variates; lower, upper and mode can be modified.
+fuelConsumptionDistribution:
+  - lower: 0.23
+    upper: 0.31
+    mode: 0.27
+
+
+# Average velocity (km/h) of cities are triangularly distributed. In Europe max. limit 130 for Trucks.
+averageVelocityDistribution:
+  - lower: 60
+    upper: 130
+    mode: 95
+
+# To determine some parameters 
+decisions:
+  - alpha: 8 #alpha - employee cost
+    F: 650 #F - max fuel capacity
+    Sf: 150 #Starting fuel amount
+    seed: 16 #Set the seed value
+    R: 6371 #Earth radius in kilometers
+    distance_constraint: 1000 #Limitation about eliminating far cities
+
+

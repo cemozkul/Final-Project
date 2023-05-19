@@ -1,0 +1,12 @@
+After the execution of the code for random instance generation you will be provided those listed arrays:
+
+- distance: a 2D array which represents the distances between city i to city j where distance[i][j]. 
+- toll: a 2D array which represents the toll prices travelling from city i to city j where toll[i][j].
+- numberOfPaths: a 2D array which represents the number of paths travelling from city i to city j where numberOfPaths[i][j]. 
+- paths : a 2D array which represents the paths travelling from city i to city j where paths[i][j]. (e.g. paths[i][j] gives a path [i,k,m,j] where i,k,m,j in cities)
+- fuel: a 1D array which represents the fuel prices in city i where fuel[i]. 
+- fuelConsumption: a 2D array which represents the fuel consumption for travelling from city i to city j where fuelConsumption[i][j]. 
+- velocity: a 2D array which represents the average velocity for travelling from city i to city j where velocity[i][j].
+- time : a 2D array derived from the division of distance to velocity, which represents the travelling times between city i to city j where time[i][j].
+
+Randomly generated arrays ensures that those 2D arrays are symmetric since the distances, number of paths, paths, and tolls between city i and j and between city j and i will not vary.

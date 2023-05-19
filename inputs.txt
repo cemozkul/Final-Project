@@ -1,0 +1,8 @@
+The code for random instance generation process provides given arrays:
+- cities: set of cities with haversine coordinates
+- distance: the distances between city i to city j where distance[i][j]. 
+- toll: the toll prices travelling from city i to city j where toll[i][j].
+- numberOfPaths: the number of paths travelling from city i to city j where numberOfPaths[i][j]. 
+- fuel: the fuel prices travelling from city i to city j where fuel[i][j]. 
+- fuelConsumption: the fuel consumption for travelling from city i to city j where fuelConsumption[i][j]. 
+- velocity: the average velocity for travelling from city i to city j where velocity[i][j].
